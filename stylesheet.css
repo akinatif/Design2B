@@ -1,0 +1,62 @@
+body {
+    margin:0px;
+    width:auto;
+font-family: 'Lora', serif;
+font-family:'Pragati Narrow', sans-serif;    
+background-color: #FEFFFF;
+text-decoration: none;
+
+}
+
+h1 {
+    font-family:'Lora';
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  line-height: 1.4em;
+  margin-left: 32px;
+  margin-right: 32px;
+
+}
+h2 {
+    font-family:'Pragati Narrow';
+  text-decoration: none;
+  margin-top: -10px;	
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+  margin-left: 32px;
+  margin-right: 32px;
+
+    
+}
+
+h3{
+    margin-left: 32px;
+    font-style: italic;
+    
+}
+
+.links{
+    font-size: 18px;
+    background-color:   white;
+    border: 2px solid black;
+    width: auto;
+    height:auto;
+    margin-left: 32px;
+    padding:20px;
+    display: block
+}
+a:link {line-height: 1.4em;text-decoration: underline;color:darkslategray;}
+a:visited {line-height: 1.4em;text-decoration: underline;color:darkslategray;}
+a:active {line-height: 1.4em;text-decoration: underline;color:darkslategray;}
+a:hover {font-style:normal;line-height: 1.4em;text-decoration: none; color: #E8B015;color:#444444;}
+
+a.ext:link {line-height: 1.4em;text-decoration: underline;color:black;}
+a.ext:visited {line-height: 1.4em;text-decoration: underline;color:black;}
+a.ext:active {line-height: 1.4em;text-decoration: underline;color:black;}
+a.ext:hover {font-style:normal;line-height: 1.4em;text-decoration: none; color: #E8B015;color:#444444;}
+
+
+::selection {background:#E8E2D0; color:#000;}
+::-moz-selection {background:#E8E2D0; color:#000;}
