@@ -1,40 +1,139 @@
+@font-face {
+  font-family: founders;
+  src: url(FoundersGrotesk-Regular.otf);
+}
+
 body {
-    margin:0px;
+     background-color: #000000;
     width:auto;
-font-family: 'Lora', serif;
-font-family:'Pragati Narrow', sans-serif;    
-background-color: #FEFFFF;
-text-decoration: none;
+font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 
 }
 
 h1 {
     font-family:'Lora';
   text-decoration: none;
-  font-size: 24px;
+  font-size: 48px;
   letter-spacing: 0.06em;
   line-height: 1.4em;
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: 36px;
 
 }
 h2 {
-    font-family:'Pragati Narrow';
+font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  margin-top: -10px;	
-  font-size: 18px;
+    
+  font-size: 24px;
   letter-spacing: 0.1em;
   line-height: 1.4em;
-  margin-left: 32px;
-  margin-right: 32px;
-
+  margin-left: 96px;
+color:antiquewhite;
     
 }
 
 h3{
-    margin-left: 32px;
-    font-style: italic;
+    font-size: 24px;
+    margin-left: 192px;
+    color: floralwhite;
     
+}
+
+div {
+    font-family:'Pragati Narrow';
+    width: 600px;
+    height: 478px;
+    font-size: 18px;
+    line-height: 1.2em;
+    padding: 20px;
+    border: solid 8px #E8E2D0;
+}
+
+
+p.websafe01{
+ font-family: "Times New Roman", Times, serif;
+}
+
+
+p.websafe02{
+ font-family: "Arial", Times, sans-serif;
+}
+
+p.websafe03{
+ font-family: "Verdana", Times, sans-serif;
+}
+
+p.websafe04{
+ font-family: "Comic Sans MS", Comic Sans, sans-serif;
+}
+
+p.websafe05{
+ font-family: "Courier New", Courier, monospace;
+}
+
+p.websafe06{
+ font-family: "Impact", Impact, sans-serif;
+}
+
+p.websafe07{
+ font-family: "Georgia", Georgia, sans-serif;
+}
+
+p.websafe08{
+ font-family: "Webdings", Webdings, sans-serif;
+}
+
+p.websafe09{
+ font-family: "Trebuchet MS", Trebuchet, sans-serif;
+}
+
+
+p.selfhosted {
+    
+    font-family: founders;
+}
+
+img.stnd {
+    
+}
+
+#anatolian, #aztec, #cretan
+{   
+    font-size: 14px;
+    line-height: 1.2em;
+    width: 200px;
+    padding: 20px;
+    margin: 4px;
+    display: inline-flex;
+    border: solid 8px #E8E2D0;
+}
+
+#anatolian{
+  
+     background-color: #D0E8E8;
+}
+
+#aztec{ 
+     background-color: #E8D0D2;
+}
+
+#cretan{ 
+   background-color:   #DCE8D0;
+   display: inline-table;
+}
+
+.cretan2{ 
+    font-family:'Lora';
+    font-size: 21px;
+    letter-spacing: 0.06em;
+    line-height: 1.4em;
+    background-color:   #DCE8D0;
+    margin: 24px;
+    font-style: italic;
+    width:auto;
+    height:531px;
+display: inline-flex;
 }
 
 .links{
@@ -47,10 +146,10 @@ h3{
     padding:20px;
     display: block
 }
-a:link {line-height: 1.4em;text-decoration: underline;color:darkslategray;}
-a:visited {line-height: 1.4em;text-decoration: underline;color:darkslategray;}
-a:active {line-height: 1.4em;text-decoration: underline;color:darkslategray;}
-a:hover {font-style:normal;line-height: 1.4em;text-decoration: none; color: #E8B015;color:#444444;}
+a:link {line-height: 1.4em;text-decoration: underline;color:lightblue;}
+a:visited {line-height: 1.4em;text-decoration: underline;color:lightblue;}
+a:active {line-height: 1.4em;text-decoration: underline;color:lightblue;}
+a:hover {font-style:normal;line-height: 1.4em;text-decoration: none; color: #E8B015;color:orangered;}
 
 a.ext:link {line-height: 1.4em;text-decoration: underline;color:black;}
 a.ext:visited {line-height: 1.4em;text-decoration: underline;color:black;}
