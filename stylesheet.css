@@ -17,7 +17,8 @@ img {
 }
 
 body {
-     background-color: #000000;
+     background: rgb(255,57,2);
+background: linear-gradient(159deg, rgba(255,57,2,1) 35%, rgba(73,9,121,1) 65%, rgba(152,153,14,0.5018382352941176) 100%);
     width:auto;
 font-family: 'Roboto', sans-serif;
     color: #ffffff;
