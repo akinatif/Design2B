@@ -110,7 +110,14 @@ p.variable {
     font-family: inconsolata;
     font-variation-settings: 'wdth' 400; 'wght' 10;
 
+}
 
+a:link {line-height: 1.4em;text-decoration: underline;color:lightblue;}
+a:visited {line-height: 1.4em;text-decoration: underline;color:lightblue;}
+a:active {line-height: 1.4em;text-decoration: underline;color:lightblue;}
+a:hover {font-style:normal;line-height: 1.4em;text-decoration: none; color: #E8B015;color:orangered;}
+
+a.bernie{font-family: jubilat, serif; font-size: 48px; font-weight: 500; font-style: normal;}
 
 #anatolian, #aztec, #cretan
 {   
@@ -160,10 +167,7 @@ display: inline-flex;
     padding:20px;
     display: block;
 }
-a:link {line-height: 1.4em;text-decoration: underline;color:lightblue;}
-a:visited {line-height: 1.4em;text-decoration: underline;color:lightblue;}
-a:active {line-height: 1.4em;text-decoration: underline;color:lightblue;}
-a:hover {font-style:normal;line-height: 1.4em;text-decoration: none; color: #E8B015;color:orangered;}
+
 
 a.ext:link {line-height: 1.4em;text-decoration: underline;color:black;}
 a.ext:visited {line-height: 1.4em;text-decoration: underline;color:black;}
