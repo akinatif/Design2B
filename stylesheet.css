@@ -87,6 +87,8 @@ p.websafe04{
 
 p.websafe05{
  font-family: "Courier New", Courier, monospace;
+background: "black";
+    font-weight: 200;
 }
 
 p.websafe06{
@@ -112,7 +114,6 @@ p.selfhosted {
 
 p.variable {
     font-family: inconsolata;
-    font-variation-settings: 'wdth' 400; 'wght' 10;
 
 }
 
@@ -179,7 +180,16 @@ ul.a {
   list-style-type: none;
     text-align: center;
     margin-top: 40px;
+    list-style-type:none;
 }
+
+.li {
+  list-style-type: none;
+    text-align: center;
+    margin-top: 40px;
+    list-style-type:none;
+}
+
 
 a.ext:link {line-height: 1.4em;text-decoration: underline;color:black;}
 a.ext:visited {line-height: 1.4em;text-decoration: underline;color:black;}

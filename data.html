@@ -1,0 +1,69 @@
+<!doctype html>	
+<html lang="en">
+<head>
+	<meta name="description" content="Some Description" />
+	<meta name="keywords" content="Design 2B, keywords"/>
+	<meta name="author" content="Atif Akin">
+
+	<title>Design 2B</title>
+    
+	<link rel="stylesheet" href="stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="http://paganstudio.com/images/favicon.png"/>
+</head>
+
+
+<body>
+    <h1><p>Data Visualization (or Visualisation?)</p></h1>
+    
+    <h2><p>Integrating Data</p></h2>
+    
+    
+    <h3><p class="selfhosted"> Loops are for repeating actions, so in this case we will use a loop to repeatedly inquring data from consequtive fields.In other words: To read the value of an array, we can use the for loop to cycle through the data.</p> </h3>
+        
+      <h3>      <p class="websafe05"><pre>let num = [10,20,30,40];
+for(let i=0; i&lt;num.length; i++){
+&nbsp; &nbsp; &nbsp; print(num[i]);
+}</pre> </p>
+    </h3>
+         <h3>
+      <p class="selfhosted">Here we use the value of i to change the index point of the array, then print the result to the console.</p></h3>
+    <h3>
+        
+    <li><a href="https://editor.p5js.org/jarivkin/sketches/MDhD68tbK">example for reading via loop</a></li>
+    <p class="selfhosted">You will want to save your data as a .csv file to bring into the web editor or brackets. Before you bring in the data, you’ll need to tidy it up. Remove any columns of information in Excel or Google Drive that are unnecessary. We will want to make this file as small as possible so that it loads quickly in our webpage. Make sure at the top of the each of your rows, you have a simple way to identify each column. Eg: Miles, Mood, Smell. Don’t write “The amt of MiLeS Rannnnnn”. This will likely cause you to make an error in trying to re-write accessing this in p5.js.
+</h3>
+    <h3>
+At the top of the web editor, select Sketch, then Add File, and then drag and drop your CSV file into the pane. Close out the pane when it’s done loading.
+    </h3>
+   <h3> <img class="alignnone size-large wp-image-456" src="excel_csv.png" alt="" width="840" height="892" srcset="excel_csv.png" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px">
+    </h3>
+     <h2><p>Simple CSV Data Reading</p></h2>
+    <h3>
+     <p class="selfhosted">But what happens when we we have a two-dimensional array, a matrix of information. A CSV, or comma separated value, file – a spreadsheet, has data going in both rows and columns. Fortunately, p5.js has some functions to help us read through the data more easily. There is some work on our end to design the spreadsheet more efficiently, however.
+        </p></h3> 
+    
+    <h3>
+                <p class="websafe05">
+    <pre>
+    let table = loadTable(“data.csv”, “csv”,”header”);
+    let numRows = table.getRowCount();
+    let miles = table.getColumn(“INSERT COLUMN NAME HERE”);</pre> 
+                </p></h3>
+          <h3>
+             <p class="selfhosted">First, we have to store our csv file somewhere. We use loadTable() to store our data. Writing csv afterwards says the file type is a csv, and using the attribute header lets this function know that we are going to use the very first row of information to give names to our columns of data. You’ll see this in the next line.</p>
+                 
+            <p class="selfhosted">.getRowCount(); allows us to do the same thing as .length for an array. It uses the value of the tables rows to get the total number of rows. We will use this value to iterate over the csv file.</p>
+            <p class="selfhosted">table is the name of the variable where we stored our data in loadTable. We use dot notation to attach the function of .getColumn, which gets all of the data for a particular column and stores it in an array. Inside the parenthesis we use the header of the column as a string to access the data. For example, I used “Miles”. Case matters here, and you have to be consistent otherwise the function won’t access the data.</p></h3>
+<h3>
+                <p class="websafe05">
+    <pre>
+for(let i=0; i<numRows; i++)
+{
+     print(miles[i]);
+     } 
+     </pre>
+                </p></h3>
+    
+</body>
+</html>
